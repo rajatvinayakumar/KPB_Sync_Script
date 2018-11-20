@@ -2090,10 +2090,10 @@
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
       &quot;id&quot;: &quot;0&quot;,&#xd;
       &quot;center_id&quot;:${id1},&#xd;
-      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
-      &quot;scheduled_date_time&quot;: &quot;19/11/2018 10:00:00&quot;,&#xd;
-      &quot;status&quot;: &quot;7&quot;,&#xd;
-      &quot;start_date_time&quot;:&quot;19/11/2018 17:00:00&quot;,&#xd;
+      &quot;meeting_type&quot;: &quot;3&quot;,&#xd;
+      &quot;scheduled_date_time&quot;: &quot;21/11/2018 10:00:00&quot;,&#xd;
+      &quot;status&quot;: &quot;0&quot;,&#xd;
+      &quot;start_date_time&quot;:&quot;&quot;,&#xd;
       &quot;end_date_time&quot;:&quot;&quot;,&#xd;
       &quot;description&quot;:&quot; Update CGT meeting&quot;,&#xd;
       &quot;create_date_time&quot;:&quot;30/10/2018 13:00:00&quot;,&#xd;
@@ -2260,6 +2260,59 @@
       &quot;created_by&quot;: &quot;5&quot;,&#xd;
       &quot;status&quot;: &quot;0&quot;,&#xd;
       &quot;is_deleted&quot;:0&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;office_id&quot;: &quot;7&quot;,&#xd;
+      &quot;image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;temp_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;perm_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;group_id&quot;: &quot;0&quot;,&#xd;
+      &quot;group_position&quot;: &quot;0&quot;,&#xd;
+      &quot;primary_address_proof_id&quot;: &quot;1&quot;,&#xd;
+      &quot;religion_id&quot;: &quot;1&quot;,&#xd;
+      &quot;religion_type&quot;: &quot;1&quot;,&#xd;
+      &quot;caste_id&quot;: &quot;2&quot;,&#xd;
+      &quot;caste_type&quot;: &quot;2&quot;,&#xd;
+      &quot;permanent_address_proof_id&quot;: &quot;1&quot;,&#xd;
+      &quot;temporary_address_proof_id&quot;: &quot;2&quot;,&#xd;
+      &quot;address_proof_sub_id&quot;: &quot;0&quot;,&#xd;
+      &quot;primary_contact_number_id&quot;: &quot;0&quot;,&#xd;
+      &quot;member_code&quot;: &quot;&quot;,&#xd;
+      &quot;name&quot;: &quot;anusree CGT&quot;,&#xd;
+      &quot;type&quot;: &quot;0&quot;,&#xd;
+      &quot;care_of&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant&quot;: &quot;0&quot;,&#xd;
+      &quot;continue_guarantor&quot;: &quot;0&quot;,&#xd;
+      &quot;family_member_count&quot;: &quot;0&quot;,&#xd;
+      &quot;marital_status&quot;: &quot;1&quot;,&#xd;
+      &quot;gender&quot;: &quot;1&quot;,&#xd;
+      &quot;kyc_status&quot;: &quot;0&quot;,&#xd;
+      &quot;cb_status&quot;: &quot;0&quot;,&#xd;
+      &quot;house_type_status&quot;: &quot;0&quot;,&#xd;
+      &quot;family_status&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_status&quot;: &quot;0&quot;,&#xd;
+      &quot;longitude&quot;: &quot;76.879180908203&quot;,&#xd;
+      &quot;latitude&quot;: &quot;8.5466899871826&quot;,&#xd;
+      &quot;house_location&quot;: &quot;Nila Phase1, Thiruvananthapuram, Kerala 695581, India ThiruvananthapuramKeralaIndia695581&quot;,&#xd;
+      &quot;language_type&quot;: &quot;Malayalam&quot;,&#xd;
+      &quot;language_id&quot;: &quot;1&quot;,&#xd;
+      &quot;continue_guarantor_type&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_selection&quot;: &quot;0&quot;,&#xd;
+      &quot;loan_cycle&quot;: &quot;0&quot;,&#xd;
+      &quot;mgc_score&quot;: &quot;0&quot;,&#xd;
+      &quot;center_leader_1&quot;: &quot;0&quot;,&#xd;
+      &quot;center_leader_2&quot;: &quot;0&quot;,&#xd;
+      &quot;group_leader_1&quot;: &quot;0&quot;,&#xd;
+      &quot;group_leader_2&quot;: &quot;0&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;15/10/2018 04:47:50&quot;,&#xd;
+      &quot;created_by&quot;: &quot;5&quot;,&#xd;
+      &quot;status&quot;: &quot;0&quot;,&#xd;
+      &quot;is_deleted&quot;:0&#xd;
     }&#xd;
     &#xd;
   ]&#xd;
@@ -2312,6 +2365,13 @@
             <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="New Member as Continue Gurantor" enabled="true">
               <stringProp name="JSONPostProcessor.referenceNames"> ContinueGurantor</stringProp>
               <stringProp name="JSONPostProcessor.jsonPathExprs">$.*.customer[1].id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
+              <stringProp name="JSONPostProcessor.defaultValues">Error_ON_Json</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="New Member " enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">NewMember</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.*.customer[2].id</stringProp>
               <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
               <stringProp name="JSONPostProcessor.defaultValues">Error_ON_Json</stringProp>
             </JSONPostProcessor>
@@ -2586,6 +2646,20 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="Co-Applicant" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">Co-Applicant</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.*.customer[0].co_applicant</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">Error_ON_Json</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="continue_guarantor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">continue_guarantor</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.*.customer[0].continue_guarantor</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">Error_ON_Json</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Notes" enabled="true"/>
         <hashTree>
@@ -2776,7 +2850,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Address Proof" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Address Proof of Member aadhar" enabled="true"/>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -2795,7 +2869,7 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Address Proof of Member" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Address Proof of Member aadhar,voter id,PAN" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
@@ -2810,6 +2884,231 @@
                 &quot;customer_type&quot;: &quot;customer&quot;,&#xd;
                 &quot;center_id&quot;: ${id1},&#xd;
                 &quot;id_proof_type&quot;: &quot;1&quot;,&#xd;
+                &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
+                &quot;idproof_id&quot;: &quot;692804971649&quot;,&#xd;
+                &quot;image_front_id&quot;: &quot;0&quot;,&#xd;
+                &quot;image_back_id&quot;: &quot;0&quot;,&#xd;
+                &quot;name&quot;: &quot;Kavya CGT&quot;,&#xd;
+                &quot;resident_name&quot;: &quot;Manoj Bhavanam&quot;,&#xd;
+                &quot;gender&quot;: &quot;1&quot;,&#xd;
+                &quot;dob&quot;: &quot;1/1/1991&quot;,&#xd;
+                &quot;age&quot;: &quot;27&quot;,&#xd;
+                &quot;village&quot;: &quot;Mylom&quot;,&#xd;
+                &quot;post_office&quot;: &quot;Pallickal-kottarakara&quot;,&#xd;
+                &quot;district&quot;: &quot;Kollam&quot;,&#xd;
+                &quot;district_id&quot;: &quot;290&quot;,&#xd;
+                &quot;state&quot;: &quot;Kerala&quot;,&#xd;
+                &quot;state_id&quot;: &quot;18&quot;,&#xd;
+                &quot;pin_code&quot;: &quot;691566&quot;,&#xd;
+                &quot;scanned&quot;: &quot;1&quot;,&#xd;
+                &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+                &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
+                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;status&quot;: &quot;0&quot;,&#xd;
+                &quot;note&quot;: &quot;&quot;,&#xd;
+                &quot;is_deleted&quot;: &quot;0&quot;&#xd;
+        }, &#xd;
+               {&#xd;
+                &quot;_id&quot;: &quot;10001&quot;,&#xd;
+                &quot;id&quot;: &quot;0&quot;,&#xd;
+                &quot;customer_id&quot;: ${customer},&#xd;
+                &quot;customer_type&quot;: &quot;customer&quot;,&#xd;
+                &quot;center_id&quot;: ${id1},&#xd;
+                &quot;id_proof_type&quot;: &quot;2&quot;,&#xd;
+                &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
+                &quot;idproof_id&quot;: &quot;KL/17/117/102647&quot;,&#xd;
+                &quot;image_front_id&quot;: &quot;0&quot;,&#xd;
+                &quot;image_back_id&quot;: &quot;0&quot;,&#xd;
+                &quot;name&quot;: &quot;Kavya CGT&quot;,&#xd;
+                &quot;resident_name&quot;: &quot;Manoj Bhavanam&quot;,&#xd;
+                &quot;gender&quot;: &quot;1&quot;,&#xd;
+                &quot;dob&quot;: &quot;1/1/1991&quot;,&#xd;
+                &quot;age&quot;: &quot;27&quot;,&#xd;
+                &quot;village&quot;: &quot;Mylom&quot;,&#xd;
+                &quot;post_office&quot;: &quot;Pallickal-kottarakara&quot;,&#xd;
+                &quot;district&quot;: &quot;Kollam&quot;,&#xd;
+                &quot;district_id&quot;: &quot;290&quot;,&#xd;
+                &quot;state&quot;: &quot;Kerala&quot;,&#xd;
+                &quot;state_id&quot;: &quot;18&quot;,&#xd;
+                &quot;pin_code&quot;: &quot;691566&quot;,&#xd;
+                &quot;scanned&quot;: &quot;1&quot;,&#xd;
+                &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+                &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
+                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;status&quot;: &quot;0&quot;,&#xd;
+                &quot;note&quot;: &quot;&quot;,&#xd;
+                &quot;is_deleted&quot;: &quot;0&quot;&#xd;
+        },&#xd;
+               {&#xd;
+                &quot;_id&quot;: &quot;10001&quot;,&#xd;
+                &quot;id&quot;: &quot;0&quot;,&#xd;
+                &quot;customer_id&quot;: ${customer},&#xd;
+                &quot;customer_type&quot;: &quot;customer&quot;,&#xd;
+                &quot;center_id&quot;: ${id1},&#xd;
+                &quot;id_proof_type&quot;: &quot;4&quot;,&#xd;
+                &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
+                &quot;idproof_id&quot;: &quot;0123456789&quot;,&#xd;
+                &quot;image_front_id&quot;: &quot;0&quot;,&#xd;
+                &quot;image_back_id&quot;: &quot;0&quot;,&#xd;
+                &quot;name&quot;: &quot;Kavya CGT&quot;,&#xd;
+                &quot;resident_name&quot;: &quot;Manoj Bhavanam&quot;,&#xd;
+                &quot;gender&quot;: &quot;1&quot;,&#xd;
+                &quot;dob&quot;: &quot;1/1/1991&quot;,&#xd;
+                &quot;age&quot;: &quot;27&quot;,&#xd;
+                &quot;village&quot;: &quot;Mylom&quot;,&#xd;
+                &quot;post_office&quot;: &quot;Pallickal-kottarakara&quot;,&#xd;
+                &quot;district&quot;: &quot;Kollam&quot;,&#xd;
+                &quot;district_id&quot;: &quot;290&quot;,&#xd;
+                &quot;state&quot;: &quot;Kerala&quot;,&#xd;
+                &quot;state_id&quot;: &quot;18&quot;,&#xd;
+                &quot;pin_code&quot;: &quot;691566&quot;,&#xd;
+                &quot;scanned&quot;: &quot;1&quot;,&#xd;
+                &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+                &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
+                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;status&quot;: &quot;0&quot;,&#xd;
+                &quot;note&quot;: &quot;&quot;,&#xd;
+                &quot;is_deleted&quot;: &quot;0&quot;&#xd;
+        }&#xd;
+  &#xd;
+        &#xd;
+        &#xd;
+     ]&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/idproofs</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Address Proof of Member Voter  ID" enabled="false"/>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${Token}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Address Proof of Member Voter ID" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"> {&#xd;
+                &quot;address_proof&quot;: [ &#xd;
+               {&#xd;
+                &quot;_id&quot;: &quot;10001&quot;,&#xd;
+                &quot;id&quot;: &quot;0&quot;,&#xd;
+                &quot;customer_id&quot;: ${customer},&#xd;
+                &quot;customer_type&quot;: &quot;customer&quot;,&#xd;
+                &quot;center_id&quot;: ${id1},&#xd;
+                &quot;id_proof_type&quot;: &quot;2&quot;,&#xd;
+                &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
+                &quot;idproof_id&quot;: &quot;KL/17/117/102647&quot;,&#xd;
+                &quot;image_front_id&quot;: &quot;0&quot;,&#xd;
+                &quot;image_back_id&quot;: &quot;0&quot;,&#xd;
+                &quot;name&quot;: &quot;Kavya CGT&quot;,&#xd;
+                &quot;resident_name&quot;: &quot;Manoj Bhavanam&quot;,&#xd;
+                &quot;gender&quot;: &quot;1&quot;,&#xd;
+                &quot;dob&quot;: &quot;1/1/1991&quot;,&#xd;
+                &quot;age&quot;: &quot;27&quot;,&#xd;
+                &quot;village&quot;: &quot;Mylom&quot;,&#xd;
+                &quot;post_office&quot;: &quot;Pallickal-kottarakara&quot;,&#xd;
+                &quot;district&quot;: &quot;Kollam&quot;,&#xd;
+                &quot;district_id&quot;: &quot;290&quot;,&#xd;
+                &quot;state&quot;: &quot;Kerala&quot;,&#xd;
+                &quot;state_id&quot;: &quot;18&quot;,&#xd;
+                &quot;pin_code&quot;: &quot;691566&quot;,&#xd;
+                &quot;scanned&quot;: &quot;1&quot;,&#xd;
+                &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+                &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
+                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;status&quot;: &quot;0&quot;,&#xd;
+                &quot;note&quot;: &quot;&quot;,&#xd;
+                &quot;is_deleted&quot;: &quot;0&quot;&#xd;
+        }&#xd;
+        ]&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/idproofs</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Address Proof of Member PAN" enabled="false"/>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${Token}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Address Proof of Member PAN" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"> {&#xd;
+                &quot;address_proof&quot;: [ &#xd;
+               {&#xd;
+                &quot;_id&quot;: &quot;10001&quot;,&#xd;
+                &quot;id&quot;: &quot;0&quot;,&#xd;
+                &quot;customer_id&quot;: ${customer},&#xd;
+                &quot;customer_type&quot;: &quot;customer&quot;,&#xd;
+                &quot;center_id&quot;: ${id1},&#xd;
+                &quot;id_proof_type&quot;: &quot;4&quot;,&#xd;
                 &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
                 &quot;idproof_id&quot;: &quot;692804971649&quot;,&#xd;
                 &quot;image_front_id&quot;: &quot;0&quot;,&#xd;
@@ -2991,6 +3290,166 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Address Proof of Co-applicant" enabled="true"/>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${Token}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Address Proof of Co-Applicant" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"> {&#xd;
+                &quot;address_proof&quot;: [ &#xd;
+               {&#xd;
+                &quot;_id&quot;: &quot;10001&quot;,&#xd;
+                &quot;id&quot;: &quot;0&quot;,&#xd;
+                &quot;customer_id&quot;: ${Co-Applicant},&#xd;
+                &quot;customer_type&quot;: &quot;Co-Applicant&quot;,&#xd;
+                &quot;center_id&quot;: ${id1},&#xd;
+                &quot;id_proof_type&quot;: &quot;6&quot;,&#xd;
+                &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
+                &quot;idproof_id&quot;: &quot;234564567823&quot;,&#xd;
+                &quot;image_front_id&quot;: &quot;0&quot;,&#xd;
+                &quot;image_back_id&quot;: &quot;0&quot;,&#xd;
+                &quot;name&quot;: &quot;Arshad CGT&quot;,&#xd;
+                &quot;resident_name&quot;: &quot;Manoj Bhavanam&quot;,&#xd;
+                &quot;gender&quot;: &quot;1&quot;,&#xd;
+                &quot;dob&quot;: &quot;1/1/1991&quot;,&#xd;
+                &quot;age&quot;: &quot;27&quot;,&#xd;
+                &quot;village&quot;: &quot;Mylom&quot;,&#xd;
+                &quot;post_office&quot;: &quot;Pallickal-kottarakara&quot;,&#xd;
+                &quot;district&quot;: &quot;Kollam&quot;,&#xd;
+                &quot;district_id&quot;: &quot;290&quot;,&#xd;
+                &quot;state&quot;: &quot;Kerala&quot;,&#xd;
+                &quot;state_id&quot;: &quot;18&quot;,&#xd;
+                &quot;pin_code&quot;: &quot;691566&quot;,&#xd;
+                &quot;scanned&quot;: &quot;1&quot;,&#xd;
+                &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+                &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
+                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;status&quot;: &quot;0&quot;,&#xd;
+                &quot;note&quot;: &quot;&quot;,&#xd;
+                &quot;is_deleted&quot;: &quot;0&quot;&#xd;
+        }&#xd;
+        ]&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/idproofs</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Address Proof of Continue Gurantor" enabled="true"/>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${Token}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Address Proof of continue_guarantor" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"> {&#xd;
+                &quot;address_proof&quot;: [ &#xd;
+               {&#xd;
+                &quot;_id&quot;: &quot;10001&quot;,&#xd;
+                &quot;id&quot;: &quot;0&quot;,&#xd;
+                &quot;customer_id&quot;: ${continue_guarantor},&#xd;
+                &quot;customer_type&quot;: &quot;customer&quot;,&#xd;
+                &quot;center_id&quot;: ${id1},&#xd;
+                &quot;id_proof_type&quot;: &quot;2&quot;,&#xd;
+                &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
+                &quot;idproof_id&quot;: &quot;692804971649&quot;,&#xd;
+                &quot;image_front_id&quot;: &quot;0&quot;,&#xd;
+                &quot;image_back_id&quot;: &quot;0&quot;,&#xd;
+                &quot;name&quot;: &quot;abhiram CGT&quot;,&#xd;
+                &quot;resident_name&quot;: &quot;Manoj Bhavanam&quot;,&#xd;
+                &quot;gender&quot;: &quot;1&quot;,&#xd;
+                &quot;dob&quot;: &quot;1/1/1991&quot;,&#xd;
+                &quot;age&quot;: &quot;27&quot;,&#xd;
+                &quot;village&quot;: &quot;Mylom&quot;,&#xd;
+                &quot;post_office&quot;: &quot;Pallickal-kottarakara&quot;,&#xd;
+                &quot;district&quot;: &quot;Kollam&quot;,&#xd;
+                &quot;district_id&quot;: &quot;290&quot;,&#xd;
+                &quot;state&quot;: &quot;Kerala&quot;,&#xd;
+                &quot;state_id&quot;: &quot;18&quot;,&#xd;
+                &quot;pin_code&quot;: &quot;691566&quot;,&#xd;
+                &quot;scanned&quot;: &quot;1&quot;,&#xd;
+                &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+                &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
+                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;status&quot;: &quot;0&quot;,&#xd;
+                &quot;note&quot;: &quot;&quot;,&#xd;
+                &quot;is_deleted&quot;: &quot;0&quot;&#xd;
+        }&#xd;
+        ]&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/idproofs</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Attendes" enabled="true"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="attendes" enabled="true">
@@ -3005,12 +3464,46 @@
       &quot;_id&quot;: &quot;10006&quot;,&#xd;
       &quot;id&quot;: &quot;0&quot;,&#xd;
       &quot;center_id&quot;: ${id1},&#xd;
-      &quot;member_id&quot;: ${customer},&#xd;
+      &quot;customer_id&quot;: ${customer},&#xd;
       &quot;meeting_id&quot;: ${CGTMeeting},&#xd;
       &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
       &quot;notes&quot;: &quot;Attendee Notes added&quot;,&#xd;
       &quot;attendence_date_time&quot;: &quot;&quot;,&#xd;
       &quot;attendance_status&quot;: &quot;1&quot;,&#xd;
+      &quot;isRemoved&quot;: &quot;0&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;16/11/2018 15:13:35&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;16/11/2018 15:47:08&quot;,&#xd;
+      &quot;created_by&quot;: &quot;102&quot;,&#xd;
+      &quot;status&quot;: &quot;0&quot;,&#xd;
+      &quot;image_id&quot;: 0&#xd;
+    },&#xd;
+     {&#xd;
+      &quot;_id&quot;: &quot;10006&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;customer_id&quot;: ${continue_guarantor},&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;notes&quot;: &quot;Attendee Notes added&quot;,&#xd;
+      &quot;attendence_date_time&quot;: &quot;&quot;,&#xd;
+      &quot;attendance_status&quot;: &quot;3&quot;,&#xd;
+      &quot;isRemoved&quot;: &quot;0&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;16/11/2018 15:13:35&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;16/11/2018 15:47:08&quot;,&#xd;
+      &quot;created_by&quot;: &quot;102&quot;,&#xd;
+      &quot;status&quot;: &quot;0&quot;,&#xd;
+      &quot;image_id&quot;: 0&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10006&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;customer_id&quot;: ${NewMember},&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;notes&quot;: &quot;Attendee Notes added&quot;,&#xd;
+      &quot;attendence_date_time&quot;: &quot;&quot;,&#xd;
+      &quot;attendance_status&quot;: &quot;2&quot;,&#xd;
       &quot;isRemoved&quot;: &quot;0&quot;,&#xd;
       &quot;create_date_time&quot;: &quot;16/11/2018 15:13:35&quot;,&#xd;
       &quot;update_date_time&quot;: &quot;16/11/2018 15:47:08&quot;,&#xd;
@@ -3058,6 +3551,9 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="checklist" enabled="true"/>
+        <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
@@ -3075,6 +3571,516 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Checklist" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"> {&quot;checklist_answer&quot;: [&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;1&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;2&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;3&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;4&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;5&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;6&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;7&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;8&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;9&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;10&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;11&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;12&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;checklist_id&quot;: &quot;1&quot;,&#xd;
+      &quot;checklist_item_id&quot;: &quot;13&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
+      &quot;meeting_id&quot;: ${CGTMeeting} ,&#xd;
+      &quot;completed&quot;: &quot;1&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;14/10/2018 06:40:57&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;14/10/2018 06:43:13&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;status&quot;: &quot;7&quot;&#xd;
+    }&#xd;
+    ]&#xd;
+    }</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/checklists</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="group creation" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="group" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&#xd;
+  &quot;customer_group&quot;: [&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10004&quot;,&#xd;
+      &quot;id&quot;: &quot;0&quot;,&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;group_name&quot;: &quot;Group 4&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;20/11/2018 09:12:54&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;20/11/2018 09:31:12&quot;,&#xd;
+      &quot;created_by&quot;: &quot;102&quot;,&#xd;
+      &quot;status&quot;: &quot;0&quot;,&#xd;
+      &quot;is_deleted&quot;: &quot;0&quot;&#xd;
+    }&#xd;
+  ]&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/groups</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${Token}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">group</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.*.customer_group[0].id</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">error_on_token</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="customer  addition to group" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="customer addition to group" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&#xd;
+  &quot;customer&quot;: [&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: ${customer},&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;office_id&quot;: &quot;7&quot;,&#xd;
+      &quot;image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;temp_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;perm_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;group_id&quot;: ${group},&#xd;
+      &quot;group_position&quot;: &quot;1&quot;,&#xd;
+      &quot;primary_address_proof_id&quot;: &quot;1&quot;,&#xd;
+      &quot;religion_id&quot;: &quot;1&quot;,&#xd;
+      &quot;religion_type&quot;: &quot;1&quot;,&#xd;
+      &quot;caste_id&quot;: &quot;2&quot;,&#xd;
+      &quot;caste_type&quot;: &quot;2&quot;,&#xd;
+      &quot;permanent_address_proof_id&quot;: &quot;1&quot;,&#xd;
+      &quot;temporary_address_proof_id&quot;: &quot;2&quot;,&#xd;
+      &quot;address_proof_sub_id&quot;: &quot;0&quot;,&#xd;
+      &quot;primary_contact_number_id&quot;: &quot;0&quot;,&#xd;
+      &quot;member_code&quot;: &quot;&quot;,&#xd;
+      &quot;name&quot;: &quot;Kavya CGT&quot;,&#xd;
+      &quot;type&quot;: &quot;0&quot;,&#xd;
+      &quot;care_of&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant&quot;: &quot;0&quot;,&#xd;
+      &quot;continue_guarantor&quot;: &quot;0&quot;,&#xd;
+      &quot;family_member_count&quot;: &quot;0&quot;,&#xd;
+      &quot;marital_status&quot;: &quot;1&quot;,&#xd;
+      &quot;gender&quot;: &quot;1&quot;,&#xd;
+      &quot;kyc_status&quot;: &quot;0&quot;,&#xd;
+      &quot;cb_status&quot;: &quot;0&quot;,&#xd;
+      &quot;house_type_status&quot;: &quot;0&quot;,&#xd;
+      &quot;family_status&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_status&quot;: &quot;0&quot;,&#xd;
+      &quot;longitude&quot;: &quot;76.879180908203&quot;,&#xd;
+      &quot;latitude&quot;: &quot;8.5466899871826&quot;,&#xd;
+      &quot;house_location&quot;: &quot;Nila Phase1, Thiruvananthapuram, Kerala 695581, India ThiruvananthapuramKeralaIndia695581&quot;,&#xd;
+      &quot;language_type&quot;: &quot;Malayalam&quot;,&#xd;
+      &quot;language_id&quot;: &quot;1&quot;,&#xd;
+      &quot;continue_guarantor_type&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_selection&quot;: &quot;0&quot;,&#xd;
+      &quot;loan_cycle&quot;: &quot;0&quot;,&#xd;
+      &quot;mgc_score&quot;: &quot;0&quot;,&#xd;
+      &quot;center_leader_1&quot;: &quot;0&quot;,&#xd;
+      &quot;center_leader_2&quot;: &quot;0&quot;,&#xd;
+      &quot;group_leader_1&quot;: &quot;0&quot;,&#xd;
+      &quot;group_leader_2&quot;: &quot;0&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;15/10/2018 04:47:50&quot;,&#xd;
+      &quot;created_by&quot;: &quot;5&quot;,&#xd;
+      &quot;status&quot;: &quot;0&quot;,&#xd;
+      &quot;is_deleted&quot;:0&#xd;
+    },&#xd;
+     {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: ${ContinueGurantor},&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;office_id&quot;: &quot;7&quot;,&#xd;
+      &quot;image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;temp_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;perm_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;group_id&quot;: ${group},&#xd;
+      &quot;group_position&quot;: &quot;2&quot;,&#xd;
+      &quot;primary_address_proof_id&quot;: &quot;1&quot;,&#xd;
+      &quot;religion_id&quot;: &quot;1&quot;,&#xd;
+      &quot;religion_type&quot;: &quot;1&quot;,&#xd;
+      &quot;caste_id&quot;: &quot;2&quot;,&#xd;
+      &quot;caste_type&quot;: &quot;2&quot;,&#xd;
+      &quot;permanent_address_proof_id&quot;: &quot;1&quot;,&#xd;
+      &quot;temporary_address_proof_id&quot;: &quot;2&quot;,&#xd;
+      &quot;address_proof_sub_id&quot;: &quot;0&quot;,&#xd;
+      &quot;primary_contact_number_id&quot;: &quot;0&quot;,&#xd;
+      &quot;member_code&quot;: &quot;&quot;,&#xd;
+      &quot;name&quot;: &quot;abhiram CGT&quot;,&#xd;
+      &quot;type&quot;: &quot;0&quot;,&#xd;
+      &quot;care_of&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant&quot;: &quot;0&quot;,&#xd;
+      &quot;continue_guarantor&quot;: &quot;0&quot;,&#xd;
+      &quot;family_member_count&quot;: &quot;0&quot;,&#xd;
+      &quot;marital_status&quot;: &quot;1&quot;,&#xd;
+      &quot;gender&quot;: &quot;1&quot;,&#xd;
+      &quot;kyc_status&quot;: &quot;0&quot;,&#xd;
+      &quot;cb_status&quot;: &quot;0&quot;,&#xd;
+      &quot;house_type_status&quot;: &quot;0&quot;,&#xd;
+      &quot;family_status&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_status&quot;: &quot;0&quot;,&#xd;
+      &quot;longitude&quot;: &quot;76.879180908203&quot;,&#xd;
+      &quot;latitude&quot;: &quot;8.5466899871826&quot;,&#xd;
+      &quot;house_location&quot;: &quot;Nila Phase1, Thiruvananthapuram, Kerala 695581, India ThiruvananthapuramKeralaIndia695581&quot;,&#xd;
+      &quot;language_type&quot;: &quot;Malayalam&quot;,&#xd;
+      &quot;language_id&quot;: &quot;1&quot;,&#xd;
+      &quot;continue_guarantor_type&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_selection&quot;: &quot;0&quot;,&#xd;
+      &quot;loan_cycle&quot;: &quot;0&quot;,&#xd;
+      &quot;mgc_score&quot;: &quot;0&quot;,&#xd;
+      &quot;center_leader_1&quot;: &quot;0&quot;,&#xd;
+      &quot;center_leader_2&quot;: &quot;0&quot;,&#xd;
+      &quot;group_leader_1&quot;: &quot;0&quot;,&#xd;
+      &quot;group_leader_2&quot;: &quot;0&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;15/10/2018 04:47:50&quot;,&#xd;
+      &quot;created_by&quot;: &quot;5&quot;,&#xd;
+      &quot;status&quot;: &quot;0&quot;,&#xd;
+      &quot;is_deleted&quot;:0&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: ${NewMember},&#xd;
+      &quot;center_id&quot;: ${id1},&#xd;
+      &quot;office_id&quot;: &quot;7&quot;,&#xd;
+      &quot;image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;temp_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;perm_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
+      &quot;group_id&quot;: ${group},&#xd;
+      &quot;group_position&quot;: &quot;3&quot;,&#xd;
+      &quot;primary_address_proof_id&quot;: &quot;1&quot;,&#xd;
+      &quot;religion_id&quot;: &quot;1&quot;,&#xd;
+      &quot;religion_type&quot;: &quot;1&quot;,&#xd;
+      &quot;caste_id&quot;: &quot;2&quot;,&#xd;
+      &quot;caste_type&quot;: &quot;2&quot;,&#xd;
+      &quot;permanent_address_proof_id&quot;: &quot;1&quot;,&#xd;
+      &quot;temporary_address_proof_id&quot;: &quot;2&quot;,&#xd;
+      &quot;address_proof_sub_id&quot;: &quot;0&quot;,&#xd;
+      &quot;primary_contact_number_id&quot;: &quot;0&quot;,&#xd;
+      &quot;member_code&quot;: &quot;&quot;,&#xd;
+      &quot;name&quot;: &quot;anusree CGT&quot;,&#xd;
+      &quot;type&quot;: &quot;0&quot;,&#xd;
+      &quot;care_of&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant&quot;: &quot;0&quot;,&#xd;
+      &quot;continue_guarantor&quot;: &quot;0&quot;,&#xd;
+      &quot;family_member_count&quot;: &quot;0&quot;,&#xd;
+      &quot;marital_status&quot;: &quot;1&quot;,&#xd;
+      &quot;gender&quot;: &quot;1&quot;,&#xd;
+      &quot;kyc_status&quot;: &quot;0&quot;,&#xd;
+      &quot;cb_status&quot;: &quot;0&quot;,&#xd;
+      &quot;house_type_status&quot;: &quot;0&quot;,&#xd;
+      &quot;family_status&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_status&quot;: &quot;0&quot;,&#xd;
+      &quot;longitude&quot;: &quot;76.879180908203&quot;,&#xd;
+      &quot;latitude&quot;: &quot;8.5466899871826&quot;,&#xd;
+      &quot;house_location&quot;: &quot;Nila Phase1, Thiruvananthapuram, Kerala 695581, India ThiruvananthapuramKeralaIndia695581&quot;,&#xd;
+      &quot;language_type&quot;: &quot;Malayalam&quot;,&#xd;
+      &quot;language_id&quot;: &quot;1&quot;,&#xd;
+      &quot;continue_guarantor_type&quot;: &quot;0&quot;,&#xd;
+      &quot;co_applicant_selection&quot;: &quot;0&quot;,&#xd;
+      &quot;loan_cycle&quot;: &quot;0&quot;,&#xd;
+      &quot;mgc_score&quot;: &quot;0&quot;,&#xd;
+      &quot;center_leader_1&quot;: &quot;0&quot;,&#xd;
+      &quot;center_leader_2&quot;: &quot;0&quot;,&#xd;
+      &quot;group_leader_1&quot;: &quot;0&quot;,&#xd;
+      &quot;group_leader_2&quot;: &quot;0&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;15/10/2018 04:47:50&quot;,&#xd;
+      &quot;created_by&quot;: &quot;5&quot;,&#xd;
+      &quot;status&quot;: &quot;0&quot;,&#xd;
+      &quot;is_deleted&quot;:0&#xd;
+    }&#xd;
+    &#xd;
+  ]&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/customers</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer ${Token}</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+              <stringProp name="RegexExtractor.refname">customer</stringProp>
+              <stringProp name="RegexExtractor.regex">&quot;id&quot;:(.+?),&quot;</stringProp>
+              <stringProp name="RegexExtractor.template">$1$</stringProp>
+              <stringProp name="RegexExtractor.default">Error_On_Token</stringProp>
+              <stringProp name="RegexExtractor.match_number">1</stringProp>
+            </RegexExtractor>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="New Member as Continue Gurantor" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames"> ContinueGurantor</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.*.customer[1].id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
+              <stringProp name="JSONPostProcessor.defaultValues">Error_ON_Json</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="New Member " enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">NewMember</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.*.customer[2].id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
+              <stringProp name="JSONPostProcessor.defaultValues">Error_ON_Json</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
         </hashTree>
       </hashTree>
     </hashTree>
