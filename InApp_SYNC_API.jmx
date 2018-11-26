@@ -6612,7 +6612,7 @@
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="sync down_FO" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="sync down_FO" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -6744,7 +6744,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="sync down" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="sync down" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -6781,7 +6781,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="CGT Meeting Update" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="CGT Meeting Update" enabled="false"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Meeting CGT Update" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -6793,8 +6793,8 @@
   &quot;meeting&quot;: [&#xd;
     {&#xd;
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
-      &quot;id&quot;: &quot;144&quot;,&#xd;
-      &quot;center_id&quot;:&quot;179&quot;,&#xd;
+      &quot;id&quot;: &quot;163&quot;,&#xd;
+      &quot;center_id&quot;:&quot;186&quot;,&#xd;
       &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
       &quot;scheduled_date_time&quot;: &quot;26/11/2018 06:00:34&quot;,&#xd;
       &quot;status&quot;: &quot;7&quot;,&#xd;
@@ -7020,7 +7020,7 @@
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="bank" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="bank" enabled="false"/>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -7049,13 +7049,13 @@
 	&quot;bank&quot;: [&#xd;
     {&#xd;
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
-      &quot;id&quot;: &quot;53&quot;,&#xd;
-      &quot;center_id&quot;:&quot;179&quot;,&#xd;
-      &quot;customer_id&quot;: &quot;116&quot;,&#xd;
-      &quot;customer_name&quot;: &quot;Anita S1&quot;,&#xd;
+      &quot;id&quot;: &quot;58&quot;,&#xd;
+      &quot;center_id&quot;:&quot;186&quot;,&#xd;
+      &quot;customer_id&quot;: &quot;127&quot;,&#xd;
+      &quot;customer_name&quot;: &quot;Anita S2&quot;,&#xd;
       &quot;address_proof_id&quot;: &quot;3&quot;,&#xd;
-      &quot;bank_name&quot;: &quot;HDFC Bank-1&quot;,&#xd;
-      &quot;branch_name&quot;: &quot;Kannnur-1&quot;,&#xd;
+      &quot;bank_name&quot;: &quot;HDFC Bank-2&quot;,&#xd;
+      &quot;branch_name&quot;: &quot;Kannnur-2&quot;,&#xd;
       &quot;account_number&quot;: &quot;2681119008913&quot;,&#xd;
       &quot;ifsc_code&quot;: &quot;CNRB0002681&quot;,&#xd;
       &quot;image_front_id&quot;: &quot;&quot;,&#xd;
@@ -8456,7 +8456,7 @@
     {&#xd;
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
       &quot;id&quot;: &quot;0&quot;,&#xd;
-      &quot;center_name&quot;: &quot;Nov 26 2018 CGT Retake&quot;,&#xd;
+      &quot;center_name&quot;: &quot;Nov 26 QDE bug fix&quot;,&#xd;
       &quot;center_image&quot;: &quot;0&quot;,&#xd;
       &quot;pin_code&quot;: &quot;670013&quot;,         &#xd;
       &quot;office_id&quot;: &quot;7&quot;,&#xd;
@@ -8631,7 +8631,7 @@
       &quot;center_id&quot;:${id1},&#xd;
       &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
       &quot;scheduled_date_time&quot;: &quot;22/11/2018 10:00:00&quot;,&#xd;
-      &quot;status&quot;: &quot;7&quot;,&#xd;
+      &quot;status&quot;: &quot;5&quot;,&#xd;
       &quot;start_date_time&quot;:&quot;22/11/2018 10:00:00&quot;,&#xd;
       &quot;end_date_time&quot;:&quot;22/11/2018 17:00:00&quot;,&#xd;
       &quot;description&quot;:&quot; Update CGT meeting&quot;,&#xd;
@@ -11708,7 +11708,7 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="GRT_Retake_Meeting_BM Sync_Down" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="GRT_Retake_Meeting_BM Sync_Down" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -11775,7 +11775,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="userName" elementType="Argument">
               <stringProp name="Argument.name">userName</stringProp>
-              <stringProp name="Argument.value">KPB10003</stringProp>
+              <stringProp name="Argument.value">KPB10005</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="passWord" elementType="Argument">
@@ -11840,7 +11840,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="sync down" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="sync down" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -11877,7 +11877,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="bank" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="bank" enabled="false"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="BANK" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -11888,10 +11888,10 @@
                   <stringProp name="Argument.value">{&quot;bank&quot;: [&#xd;
     {&#xd;
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
-      &quot;id&quot;: &quot;53&quot;,&#xd;
-      &quot;center_id&quot;: &quot;179&quot;,&#xd;
-      &quot;customer_id&quot;: &quot;116&quot;,&#xd;
-      &quot;customer_name&quot;: &quot;Anita G&quot;,&#xd;
+      &quot;id&quot;: &quot;58&quot;,&#xd;
+      &quot;center_id&quot;: &quot;186&quot;,&#xd;
+      &quot;customer_id&quot;: &quot;127&quot;,&#xd;
+      &quot;customer_name&quot;: &quot;Anita G GRT retake&quot;,&#xd;
       &quot;address_proof_id&quot;: &quot;3&quot;,&#xd;
       &quot;bank_name&quot;: &quot;State Bank of Travancore-1&quot;,&#xd;
       &quot;branch_name&quot;: &quot;Pathanamthitta&quot;,&#xd;
@@ -11946,7 +11946,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="GRT Retake" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="GRT Retake" enabled="false"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GRT Retake" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -11958,8 +11958,8 @@
   &quot;meeting&quot;: [&#xd;
     {&#xd;
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
-      &quot;id&quot;: &quot;143&quot;,&#xd;
-      &quot;center_id&quot;:&quot;179&quot;,&#xd;
+      &quot;id&quot;: &quot;159&quot;,&#xd;
+      &quot;center_id&quot;:&quot;186&quot;,&#xd;
       &quot;meeting_type&quot;: &quot;3&quot;,&#xd;
       &quot;scheduled_date_time&quot;: &quot;26/11/2018 06:00:34&quot;,&#xd;
       &quot;status&quot;: &quot;9&quot;,&#xd;
@@ -12013,7 +12013,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Meeting Update" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Meeting Update" enabled="true"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Meeting Update" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -12025,16 +12025,16 @@
   &quot;meeting&quot;: [&#xd;
     {&#xd;
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
-      &quot;id&quot;: &quot;133&quot;,&#xd;
-      &quot;center_id&quot;:&quot;173&quot;,&#xd;
+      &quot;id&quot;: &quot;170&quot;,&#xd;
+      &quot;center_id&quot;:&quot;186&quot;,&#xd;
       &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
-      &quot;scheduled_date_time&quot;: &quot;23/11/2018 10:00:00&quot;,&#xd;
+      &quot;scheduled_date_time&quot;: &quot;23/11/2018 11:47:21&quot;,&#xd;
       &quot;status&quot;: &quot;7&quot;,&#xd;
-      &quot;start_date_time&quot;:&quot;23/11/2018 10:00:00&quot;,&#xd;
-      &quot;end_date_time&quot;:&quot;23/11/2018 17:00:00&quot;,&#xd;
+      &quot;start_date_time&quot;:&quot;23/11/2018 11:47:21&quot;,&#xd;
+      &quot;end_date_time&quot;:&quot;23/11/2018 11:57:21&quot;,&#xd;
       &quot;description&quot;:&quot;CGT Meeting for GRT Retake&quot;,&#xd;
-      &quot;create_date_time&quot;:&quot;23/11/2018 13:00:00&quot;,&#xd;
-      &quot;update_date_time&quot;:&quot;23/11/2018 13:00:00&quot;,&#xd;
+      &quot;create_date_time&quot;:&quot;23/11/2018 11:47:21&quot;,&#xd;
+      &quot;update_date_time&quot;:&quot;23/11/2018 11:47:21&quot;,&#xd;
       &quot;reference_id&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_day&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_time&quot;:&quot;&quot;,&#xd;
@@ -12052,6 +12052,75 @@
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/api/sync/meetings</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${Token}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="bank1 for CGT retake" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="BANK" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;bank&quot;: [&#xd;
+    {&#xd;
+      &quot;_id&quot;: &quot;10001&quot;,&#xd;
+      &quot;id&quot;: &quot;58&quot;,&#xd;
+      &quot;center_id&quot;: &quot;186&quot;,&#xd;
+      &quot;customer_id&quot;: &quot;127&quot;,&#xd;
+      &quot;customer_name&quot;: &quot;Anita G GRT retake-1&quot;,&#xd;
+      &quot;address_proof_id&quot;: &quot;3&quot;,&#xd;
+      &quot;bank_name&quot;: &quot;State Bank of Travancore-12&quot;,&#xd;
+      &quot;branch_name&quot;: &quot;Pathanamthitta-1&quot;,&#xd;
+      &quot;account_number&quot;: &quot;67070774735&quot;,&#xd;
+      &quot;ifsc_code&quot;: &quot;SBTR0000560&quot;,&#xd;
+      &quot;image_front_id&quot;: &quot;&quot;,&#xd;
+      &quot;image_back_id&quot;: &quot;&quot;,&#xd;
+      &quot;image_local_path&quot;: &quot;&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;26/11/2018 11:47:21&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;26/11/2018 11:47:21&quot;,&#xd;
+      &quot;status&quot;: &quot;9&quot;,&#xd;
+      &quot;created_by&quot;: &quot;12&quot;,&#xd;
+      &quot;note&quot;: &quot;&quot;,&#xd;
+      &quot;is_deleted&quot; : &quot;0&quot;&#xd;
+    }&#xd;
+    ]&#xd;
+    }</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/banks</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
