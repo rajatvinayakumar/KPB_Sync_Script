@@ -4083,7 +4083,7 @@
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="CGT_Retake_SYNC_API" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="CGT_Retake_SYNC_API" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -5587,7 +5587,7 @@
                 &quot;_id&quot;: &quot;10001&quot;,&#xd;
                 &quot;id&quot;: &quot;0&quot;,&#xd;
                 &quot;customer_id&quot;: ${Co-Applicant},&#xd;
-                &quot;customer_type&quot;: &quot;Co-Applicant&quot;,&#xd;
+                &quot;customer_type&quot;: &quot;coapplicant&quot;,&#xd;
                 &quot;center_id&quot;: ${id1},&#xd;
                 &quot;id_proof_type&quot;: &quot;6&quot;,&#xd;
                 &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
@@ -7679,7 +7679,7 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="GRT_Retrain_Submit_Meeting_BM Sync_Down" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="GRT_Retrain_Submit_Meeting_BM Sync_Down" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -8293,7 +8293,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="userName" elementType="Argument">
               <stringProp name="Argument.name">userName</stringProp>
-              <stringProp name="Argument.value">KPB10005</stringProp>
+              <stringProp name="Argument.value">KPB10100</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="passWord" elementType="Argument">
@@ -8402,12 +8402,12 @@
     {&#xd;
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
       &quot;id&quot;: &quot;0&quot;,&#xd;
-      &quot;center_name&quot;: &quot;DEC 19-2018&quot;,&#xd;
+      &quot;center_name&quot;: &quot; 10-Jan 2019&quot;,&#xd;
       &quot;center_image&quot;: &quot;0&quot;,&#xd;
       &quot;pin_code&quot;: &quot;670013&quot;,         &#xd;
-      &quot;office_id&quot;: &quot;7&quot;,&#xd;
-      &quot;create_date_time&quot;: &quot;11/10/2018 03:46:28&quot;,&#xd;
-      &quot;update_date_time&quot;: &quot;11/10/2018 03:46:43&quot;,&#xd;
+      &quot;office_id&quot;: &quot;120&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;26/1/2019 03:46:28&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;26/1/2019 03:46:43&quot;,&#xd;
       &quot;latitude&quot;: &quot;8.5466899871826&quot;,&#xd;
       &quot;longitude&quot;: &quot;76.879180908203&quot;,&#xd;
       &quot;created_by&quot;: &quot;5&quot;&#xd;
@@ -8499,13 +8499,13 @@
       &quot;id&quot;: &quot;0&quot;,&#xd;
       &quot;center_id&quot;:${id1},&#xd;
       &quot;meeting_type&quot;: &quot;1&quot;,&#xd;
-      &quot;scheduled_date_time&quot;: &quot;22/11/2018 10:00:00&quot;,&#xd;
+      &quot;scheduled_date_time&quot;: &quot;26/1/2019 10:00:00&quot;,&#xd;
       &quot;status&quot;: &quot;7&quot;,&#xd;
-      &quot;start_date_time&quot;:&quot;22/11/2018 10:00:00&quot;,&#xd;
-      &quot;end_date_time&quot;:&quot;22/11/2018 11:00:00&quot;,&#xd;
+      &quot;start_date_time&quot;:&quot;26/1/2019 10:00:00&quot;,&#xd;
+      &quot;end_date_time&quot;:&quot;26/1/2019 11:00:00&quot;,&#xd;
       &quot;description&quot;:&quot;Formation Meeting&quot;,&#xd;
-      &quot;create_date_time&quot;:&quot;22/11/2018 13:00:00&quot;,&#xd;
-      &quot;update_date_time&quot;:&quot;22/11/2018 13:00:00&quot;,&#xd;
+      &quot;create_date_time&quot;:&quot;26/1/2019 10:00:00&quot;,&#xd;
+      &quot;update_date_time&quot;:&quot;26/1/2019 11:00:00&quot;,&#xd;
       &quot;reference_id&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_day&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_time&quot;:&quot;&quot;,&#xd;
@@ -8517,13 +8517,13 @@
       &quot;id&quot;: &quot;0&quot;,&#xd;
       &quot;center_id&quot;:${id1},&#xd;
       &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
-      &quot;scheduled_date_time&quot;: &quot;22/11/2018 10:00:00&quot;,&#xd;
+      &quot;scheduled_date_time&quot;: &quot;26/1/2019 10:00:00&quot;,&#xd;
       &quot;status&quot;: &quot;7&quot;,&#xd;
-      &quot;start_date_time&quot;:&quot;22/11/2018 12:00:00&quot;,&#xd;
+      &quot;start_date_time&quot;:&quot;26/1/2019 12:00:00&quot;,&#xd;
       &quot;end_date_time&quot;:&quot;&quot;,&#xd;
       &quot;description&quot;:&quot;CGT Meeting&quot;,&#xd;
-      &quot;create_date_time&quot;:&quot;30/10/2018 13:00:00&quot;,&#xd;
-      &quot;update_date_time&quot;:&quot;30/10/2018 13:00:00&quot;,&#xd;
+      &quot;create_date_time&quot;:&quot;26/1/2019 10:00:00&quot;,&#xd;
+      &quot;update_date_time&quot;:&quot;26/1/2019 11:00:00&quot;,&#xd;
       &quot;reference_id&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_day&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_time&quot;:&quot;&quot;,&#xd;
@@ -8593,13 +8593,13 @@
       &quot;id&quot;: ${CGTMeeting},&#xd;
       &quot;center_id&quot;:${id1},&#xd;
       &quot;meeting_type&quot;: &quot;2&quot;,&#xd;
-      &quot;scheduled_date_time&quot;: &quot;22/11/2018 10:00:00&quot;,&#xd;
+      &quot;scheduled_date_time&quot;: &quot;26/1/2019 10:00:00&quot;,&#xd;
       &quot;status&quot;: &quot;5&quot;,&#xd;
-      &quot;start_date_time&quot;:&quot;22/11/2018 10:00:00&quot;,&#xd;
-      &quot;end_date_time&quot;:&quot;22/11/2018 17:00:00&quot;,&#xd;
+      &quot;start_date_time&quot;:&quot;26/1/2019 10:00:00&quot;,&#xd;
+      &quot;end_date_time&quot;:&quot;26/1/2019 17:00:00&quot;,&#xd;
       &quot;description&quot;:&quot; Update CGT meeting&quot;,&#xd;
-      &quot;create_date_time&quot;:&quot;22/10/2018 13:00:00&quot;,&#xd;
-      &quot;update_date_time&quot;:&quot;22/10/2018 13:00:00&quot;,&#xd;
+      &quot;create_date_time&quot;:&quot;26/1/2019 10:00:00&quot;,&#xd;
+      &quot;update_date_time&quot;:&quot;26/1/2019 11:00:00&quot;,&#xd;
       &quot;reference_id&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_day&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_time&quot;:&quot;&quot;,&#xd;
@@ -8611,13 +8611,13 @@
       &quot;id&quot;: &quot;0&quot;,&#xd;
       &quot;center_id&quot;:${id1},&#xd;
       &quot;meeting_type&quot;: &quot;3&quot;,&#xd;
-      &quot;scheduled_date_time&quot;: &quot;22/11/2018 10:00:00&quot;,&#xd;
+      &quot;scheduled_date_time&quot;: &quot;26/1/2019 11:30:00&quot;,&#xd;
       &quot;status&quot;: &quot;0&quot;,&#xd;
       &quot;start_date_time&quot;:&quot;&quot;,&#xd;
       &quot;end_date_time&quot;:&quot;&quot;,&#xd;
       &quot;description&quot;:&quot; Schedule A GRT Meeting&quot;,&#xd;
-      &quot;create_date_time&quot;:&quot;22/11/2018 13:00:00&quot;,&#xd;
-      &quot;update_date_time&quot;:&quot;22/11/2018 13:00:00&quot;,&#xd;
+      &quot;create_date_time&quot;:&quot;26/1/2019 11:00:00&quot;,&#xd;
+      &quot;update_date_time&quot;:&quot;26/1/2019 11:00:00&quot;,&#xd;
       &quot;reference_id&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_day&quot;:&quot;&quot;,&#xd;
       &quot;center_meeting_time&quot;:&quot;&quot;,&#xd;
@@ -8696,7 +8696,7 @@
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
       &quot;id&quot;: &quot;0&quot;,&#xd;
       &quot;center_id&quot;: ${id1},&#xd;
-      &quot;office_id&quot;: &quot;7&quot;,&#xd;
+      &quot;office_id&quot;: &quot;120&quot;,&#xd;
       &quot;image_id&quot;: &quot;0&quot;,&#xd;
       &quot;co_applicant_image_id&quot;: &quot;0&quot;,&#xd;
       &quot;temp_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
@@ -8739,9 +8739,9 @@
       &quot;center_leader_2&quot;: &quot;0&quot;,&#xd;
       &quot;group_leader_1&quot;: &quot;0&quot;,&#xd;
       &quot;group_leader_2&quot;: &quot;0&quot;,&#xd;
-      &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
-      &quot;update_date_time&quot;: &quot;15/10/2018 04:47:50&quot;,&#xd;
-      &quot;created_by&quot;: &quot;5&quot;,&#xd;
+      &quot;create_date_time&quot;: &quot;26/1/2019 10:00:00&quot;,&#xd;
+      &quot;update_date_time&quot;: &quot;26/1/2019 11:00:00&quot;,&#xd;
+      &quot;created_by&quot;: &quot;100&quot;,&#xd;
       &quot;status&quot;: &quot;0&quot;,&#xd;
       &quot;is_deleted&quot;:0&#xd;
     }&#xd;
@@ -9155,7 +9155,7 @@
       &quot;description&quot;: &quot;CGT Meeting 22/11/2018&quot;,&#xd;
       &quot;create_date_time&quot;: &quot;22/10/2018 03:48:32&quot;,&#xd;
       &quot;update_date_time&quot;: &quot;&quot;,&#xd;
-      &quot;created_by&quot;: &quot;5&quot;,&#xd;
+      &quot;created_by&quot;: &quot;100&quot;,&#xd;
       &quot;status&quot;: &quot;0&quot;,&#xd;
       &quot;is_deleted&quot;: &quot;0&quot;&#xd;
     }&#xd;
@@ -9193,7 +9193,7 @@
     {&#xd;
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
       &quot;id&quot;: &quot;0&quot;,&#xd;
-      &quot;employee_id&quot;: &quot;4&quot;,&#xd;
+      &quot;employee_id&quot;: &quot;100&quot;,&#xd;
       &quot;center_id&quot;: ${id1},&#xd;
       &quot;image_id&quot;: &quot;0&quot;,&#xd;
       &quot;meeting_id&quot;: ${CGTMeeting},&#xd;
@@ -9202,7 +9202,7 @@
       &quot;longitude&quot;: &quot;76.879180908203&quot;,&#xd;
       &quot;create_date_time&quot;: &quot;15/10/2018 18:36:46&quot;,&#xd;
       &quot;update_date_time&quot;: &quot;15/10/2018 18:47:52&quot;,&#xd;
-      &quot;created_by&quot;: &quot;4&quot;,&#xd;
+      &quot;created_by&quot;: &quot;100&quot;,&#xd;
       &quot;status&quot;: &quot;0&quot;&#xd;
      }&#xd;
     ]&#xd;
@@ -9376,7 +9376,7 @@
                 &quot;scanned&quot;: &quot;1&quot;,&#xd;
                 &quot;create_date_time&quot;: &quot;22/11/2018 04:42:27&quot;,&#xd;
                 &quot;update_date_time&quot;: &quot;22/11/2018 04:47:51&quot;,&#xd;
-                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;created_by&quot;: &quot;100&quot;,&#xd;
                 &quot;status&quot;: &quot;0&quot;,&#xd;
                 &quot;note&quot;: &quot;&quot;,&#xd;
                 &quot;is_deleted&quot;: &quot;0&quot;&#xd;
@@ -9407,7 +9407,7 @@
                 &quot;scanned&quot;: &quot;1&quot;,&#xd;
                 &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
                 &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
-                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;created_by&quot;: &quot;100&quot;,&#xd;
                 &quot;status&quot;: &quot;0&quot;,&#xd;
                 &quot;note&quot;: &quot;&quot;,&#xd;
                 &quot;is_deleted&quot;: &quot;0&quot;&#xd;
@@ -9438,7 +9438,7 @@
                 &quot;scanned&quot;: &quot;1&quot;,&#xd;
                 &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
                 &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
-                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;created_by&quot;: &quot;100&quot;,&#xd;
                 &quot;status&quot;: &quot;0&quot;,&#xd;
                 &quot;note&quot;: &quot;&quot;,&#xd;
                 &quot;is_deleted&quot;: &quot;0&quot;&#xd;
@@ -9763,7 +9763,7 @@
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Address Proof of Co-applicant" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Address Proof of Coapplicant" enabled="true"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Address Proof of Co-Applicant" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -9777,7 +9777,7 @@
                 &quot;_id&quot;: &quot;10001&quot;,&#xd;
                 &quot;id&quot;: &quot;0&quot;,&#xd;
                 &quot;customer_id&quot;: ${Co-Applicant},&#xd;
-                &quot;customer_type&quot;: &quot;Co-Applicant&quot;,&#xd;
+                &quot;customer_type&quot;: &quot;coapplicant&quot;,&#xd;
                 &quot;center_id&quot;: ${id1},&#xd;
                 &quot;id_proof_type&quot;: &quot;6&quot;,&#xd;
                 &quot;sub_id_proof&quot;: &quot;0&quot;,&#xd;
@@ -9799,7 +9799,7 @@
                 &quot;scanned&quot;: &quot;1&quot;,&#xd;
                 &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
                 &quot;update_date_time&quot;: &quot;15/10/2018 04:47:51&quot;,&#xd;
-                &quot;created_by&quot;: &quot;4&quot;,&#xd;
+                &quot;created_by&quot;: &quot;100&quot;,&#xd;
                 &quot;status&quot;: &quot;0&quot;,&#xd;
                 &quot;note&quot;: &quot;&quot;,&#xd;
                 &quot;is_deleted&quot;: &quot;0&quot;&#xd;
@@ -10353,7 +10353,7 @@
       &quot;_id&quot;: &quot;10001&quot;,&#xd;
       &quot;id&quot;: ${customer},&#xd;
       &quot;center_id&quot;: ${id1},&#xd;
-      &quot;office_id&quot;: &quot;7&quot;,&#xd;
+      &quot;office_id&quot;: &quot;120&quot;,&#xd;
       &quot;image_id&quot;: &quot;0&quot;,&#xd;
       &quot;co_applicant_image_id&quot;: &quot;0&quot;,&#xd;
       &quot;temp_address_proof_other_image_id&quot;: &quot;0&quot;,&#xd;
@@ -10398,7 +10398,7 @@
       &quot;group_leader_2&quot;: &quot;0&quot;,&#xd;
       &quot;create_date_time&quot;: &quot;15/10/2018 04:42:27&quot;,&#xd;
       &quot;update_date_time&quot;: &quot;15/10/2018 04:47:50&quot;,&#xd;
-      &quot;created_by&quot;: &quot;5&quot;,&#xd;
+      &quot;created_by&quot;: &quot;100&quot;,&#xd;
       &quot;status&quot;: &quot;0&quot;,&#xd;
       &quot;is_deleted&quot;:0&#xd;
     }&#xd;
@@ -10425,6 +10425,117 @@
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
+        <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Loan Apply/request  FO" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -12901,6 +13012,289 @@
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Production Sync_Down Testing" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">finapp.kpbfincare.com</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path"></stringProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </ConfigTestElement>
+        <hashTree/>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="userName" elementType="Argument">
+              <stringProp name="Argument.name">userName</stringProp>
+              <stringProp name="Argument.value">A10075</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="passWord" elementType="Argument">
+              <stringProp name="Argument.name">passWord</stringProp>
+              <stringProp name="Argument.value">Qq123456!</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Get_Token" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="email" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">${userName}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">email</stringProp>
+                </elementProp>
+                <elementProp name="password" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">${passWord}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">password</stringProp>
+                </elementProp>
+                <elementProp name="Test" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">Renju</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">Test</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/login</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+              <stringProp name="RegexExtractor.refname">Token</stringProp>
+              <stringProp name="RegexExtractor.regex">&quot;token&quot;:&quot;(.+?)&quot;</stringProp>
+              <stringProp name="RegexExtractor.template">$1$</stringProp>
+              <stringProp name="RegexExtractor.default">Error_On_Token</stringProp>
+              <stringProp name="RegexExtractor.match_number">1</stringProp>
+            </RegexExtractor>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="sync down" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/api/sync/down</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer ${Token}</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">Production Sync Down_3g Net</stringProp>
+          <boolProp name="useGroupName">true</boolProp>
+        </ResultCollector>
+        <hashTree/>
       </hashTree>
     </hashTree>
   </hashTree>
