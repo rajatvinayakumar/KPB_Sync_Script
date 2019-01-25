@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Sync_Down Testing_1 Day:Login,1,4264,4264,4264,0.00,0.000%,.23452,1.84,0.06,8021.0
+Sync_Down Testing_1 Day:sync down,1,107957,107957,107957,0.00,0.000%,.00926,17.96,0.01,1984905.0
+TOTAL,2,56110,4264,107957,51846.50,0.000%,.01782,17.34,0.01,996463.0
