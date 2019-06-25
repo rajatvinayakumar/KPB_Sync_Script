@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Login,1,625,625,625,0.00,0.000%,1.60000,12.43,0.40,7957.0
+sync down,1,241581,241581,241581,0.00,0.000%,.00414,20.61,0.01,5099296.0
+TOTAL,2,121103,625,241581,120478.00,0.000%,.00826,20.59,0.01,2553626.5
